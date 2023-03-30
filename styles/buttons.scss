@@ -1,0 +1,32 @@
+.Button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+    .ButtonTxt{
+        color: white;
+        font-size: 16px;
+        font-weight: 800;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        transition-duration: 0.4s;
+    }
+    
+    &:hover{
+        background-color: blueviolet;
+        color: white;
+        border: 1px solid orange;
+        
+
+        .ButtonTxt{
+            font-size: 18px;
+        }
+    }
+}

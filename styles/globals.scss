@@ -1,2 +1,12 @@
 @import "bootstrap.scss";
 @import "buttons.scss";
+@import "card.scss";
+
+html {
+    height: 100vh;
+    /* Created with https://www.css-gradient.com */
+    background: #90FDF7;
+    background: -webkit-linear-gradient(top left, #90FDF7, #300746);
+    background: -moz-linear-gradient(top left, #90FDF7, #300746);
+    background: linear-gradient(to bottom right, #90FDF7, #300746);;
+}

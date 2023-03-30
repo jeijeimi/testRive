@@ -1,0 +1,33 @@
+.Card {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-box-shadow: -2px -2px 35px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -2px 35px -11px rgba(0,0,0,0.75);
+    box-shadow: -2px -2px 35px -11px rgba(0,0,0,0.75);
+    background-color: rgb(238, 238, 238);
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+
+    .CardImg {
+        img {
+            width: 160px;
+        }
+
+    }
+    
+    .CardTxt{
+        color: black;
+        font-size: 16px;
+        font-weight: 800;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        transition-duration: 0.4s;
+    }
+    
+}

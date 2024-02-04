@@ -20,7 +20,7 @@ export default function Hero() {
             <h1>Chicken Rive Test</h1>
             <p>Click the chicken</p>
           </header>
-          <RiveContainer name ="chickenTest" onClick={inc} />
+          <RiveContainer name ="chickenTest" />
             <p>You did {count} Pakaaah</p>
         </div>
       </main>

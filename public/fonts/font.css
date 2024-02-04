@@ -1,0 +1,132 @@
+.f-DMSans {
+  font-family: "DMSans";
+  font-weight: 400;
+}
+.f-Mark-medium {
+  font-family: "DMSans";
+  font-weight: 500;
+}
+.f-DMSans-bold {
+  font-family: "DMSans";
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("./DMSans-Regular.ttf?ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("./DMSans-Bold.ttf?ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("./DMSans-Medium.ttf?ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'ChickenCripsy';
+  src: url("./ChickenCripsy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("./icomoon.ttf?ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye-hide:before {
+  content: "\e911";
+}
+.icon-eye-show:before {
+  content: "\e912";
+}
+.icon-padlock:before {
+  content: "\e910";
+}
+.icon-chevron-right:before {
+  content: "\e90f";
+}
+.icon-checkmark-outline:before {
+  content: "\e90e";
+}
+.icon-menu:before {
+  content: "\e90d";
+}
+.icon-books:before {
+  content: "\e90c";
+}
+.icon-cross-out:before {
+  content: "\e90b";
+}
+.icon-delete:before {
+  content: "\e90a";
+}
+.icon-arrow-left:before {
+  content: "\e900";
+}
+.icon-arrow-right:before {
+  content: "\e909";
+}
+.icon-audio:before {
+  content: "\e901";
+}
+.icon-dot:before {
+  content: "\e902";
+}
+.icon-music:before {
+  content: "\e903";
+}
+.icon-play:before {
+  content: "\e904";
+}
+.icon-reload:before {
+  content: "\e905";
+}
+.icon-score:before {
+  content: "\e906";
+}
+.icon-zoomin:before {
+  content: "\e907";
+}
+.icon-zoomout:before {
+  content: "\e908";
+}
+.icon-file:before {
+  content: "\e926";
+}
+.icon-smile:before {
+  content: "\e9e1";
+}

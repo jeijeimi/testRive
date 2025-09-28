@@ -9,7 +9,7 @@ export default function Hero() {
   const [count, setCount] = React.useState<number>(0);
 
   const inc = () => {
-    setCount(count + 1);
+    setCount((c) => c + 1);
   };
 
   return (
@@ -20,18 +20,21 @@ export default function Hero() {
             <h1>Chicken Rive Test</h1>
             <p>Click the chicken</p>
           </header>
-          <RiveContainer name ="chickenTest" />
-            <p>You did {count} Pakaaah</p>
+          <RiveContainer name ="chickenTest" onClick={inc} />
+            <p>You did {count} Pakaa</p>
         </div>
       </main>
     </>
   )
 }
 
-export const RiveContainer = ( { name } : { name : string}) => {
+export const RiveContainer = ( { name, onClick } : { name : string, onClick?: () => void }) => {
   return (
-    <div className='RiveContainer'>
-      <Rive src={`/rive/${name}.riv`} stateMachines="State Machine 1"/>
+    <div className='RiveContainer' onClick={onClick} role="button" tabIndex={0}>
+      <Rive
+        src={`/rive/${name}.riv`}
+        stateMachines="State Machine 1"
+      />
     </div>
   )
 }
